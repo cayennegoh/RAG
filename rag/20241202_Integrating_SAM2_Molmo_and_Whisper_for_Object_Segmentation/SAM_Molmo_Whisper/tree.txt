@@ -1,0 +1,30 @@
+tree --dirsfirst -I "tree.txt" > tree.txt
+
+.
+├── demo_data
+│   ├── image_1.jpg
+│   ├── image_2.jpg
+│   ├── image_3.jpg
+│   ├── image_4.jpg
+│   ├── image_5.jpg
+│   ├── image_6.jpg
+│   ├── image_7.jpg
+│   └── image_8.jpg
+├── docs
+│   ├── readme_media
+│   │   └── sam2_molmo_whisper-2024-10-11_07.09.47.mp4
+│   └── data_credits.md
+├── experiments
+│   ├── figure.png
+│   └── sam2_molmo.ipynb
+├── utils
+│   ├── general.py
+│   ├── load_models.py
+│   ├── model_utils.py
+│   └── sam_utils.py
+├── app.py
+├── LICENSE
+├── README.md
+└── requirements.txt
+
+5 directories, 20 files
